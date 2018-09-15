@@ -848,7 +848,7 @@ function(input, output, session)
     text(x = coord_percs(percsGO[, 3]), y = yy[13], labels = lab_percs(percsGO[, 3]), pos = 2, cex = 0.7)
     text(x = coord_percs(percsGO[, 2]), y = yy[14], labels = lab_percs(percsGO[, 2]), pos = 2, cex = 0.7)
     text(x = coord_percs(percsGO[, 1]), y = yy[15], labels = lab_percs(percsGO[, 1]), pos = 2, cex = 0.7)
-    legend(102, 6.8, legend = lbls, fill = c("red", "red", "cyan", "cyan"), density = c(NA, 20, NA, 20), cex = 0.8)
+    legend(102, 15, legend = lbls, fill = c("red", "red", "cyan", "cyan"), density = c(NA, 20, NA, 20), cex = 0.8)
   })
   
   # Drawing a barplot with the percentages of the enriched/depleted GO terms. (download)

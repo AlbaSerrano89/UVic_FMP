@@ -1,6 +1,6 @@
 shinyUI(
   fluidPage(
-    titlePanel("Targeting-signal predictor"),
+    titlePanel("MicroGOTP"),
     conditionalPanel(
       condition = "input.sidebar == false",
       fluidRow(
